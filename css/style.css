@@ -1,0 +1,53 @@
+.intro-background {
+  width: 100%;
+  height: 1000%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.background {
+  background: #171717;
+}
+
+#nav-brand {
+  margin-top: -7px; 
+}
+
+#logo {
+  width: 2em;
+/*  height: 2em;*/
+  height: auto;
+}
+
+
+
+#image {
+  margin-top: -10em;
+  width: 30em;
+  height: auto;
+  background: url("../img/collarTagText.svg");
+  background-size: 30em auto;
+}
+
+
+.logo-collar {
+  margin-top: -10em;
+/*  margin-bottom: 1em;*/
+  width: 30em;
+/*  height: 30em;*/
+  height: auto;
+}
+
+#logo-collar-text {
+  
+}
+
+#logo-collar-text:hover {
+  display: none;
+}
+
+#logo-collar-img {
+/*  display: none;*/
+}
