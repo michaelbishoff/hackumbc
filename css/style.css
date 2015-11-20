@@ -7,6 +7,17 @@
   z-index: -1;
 }
 
+.banner-background {
+  position: absolute;
+/*  top:0;*/
+  left: 0;
+}
+
+.banner-text {
+  font-size:40px;
+  padding-top:1em;
+}
+
 .background {
   background: #171717;
 }
@@ -21,7 +32,22 @@
   height: auto;
 }
 
+.card {
+  padding-bottom: 3em;
+}
 
+.card-title {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.card-body {
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+}
 
 #image {
   margin-top: -10em;
@@ -51,3 +77,9 @@
 #logo-collar-img {
 /*  display: none;*/
 }
+
+.social {
+  font-size: 25px;
+/*  border-radius: 50%;*/
+}
+
