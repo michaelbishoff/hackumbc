@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--TODO: Fix FAQ formatting, proof read FAQ content, fix anchor spot. Maybe add photos of hackers between sections -->
+<!--TODO: Proof read FAQ content. Maybe add photos of hackers between sections -->
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="HackUMBC Feb 20th 24hrs 400 hackers">
-    <meta name="author" content="">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta property="og:title" content="HackUMBC - Feb 20th"/>
+    <meta property="og:site_name" content="HackUMBC Spring 2015"/>
+    <meta property="og:url" content="http://hackumbc.org"/>
+    <meta property="og:description" content="HackUMBC gives you 24 hours to learn new skills, make friends, create your wildest idea, and share it with the world."/>
+    <meta property="article:author" content="https://www.facebook.com/hackumbc2013"/>
 
     <title>HackUMBC</title>
 
@@ -15,14 +18,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive-light.css" rel="stylesheet">
+    <link href="css/style-light.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,11 +43,8 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-<!--                  <div id="brand">-->
-<!--                    <span id="logo"></span>-->
-<!--                  <img src="img/logo.svg" style="width:2em; height:2em;">-->
                     <div id="nav-brand">
-                      <img id="logo" src="img/logo.svg">
+                      <img id="nav-logo" src="img/logo.svg">
                       <span class="light">Hack</span>UMBC
                     </div>
                 </a>
@@ -84,30 +82,18 @@
             <div class="container">
                 <div id="intro-content" class="row">
                     <div class="col-md-8 col-md-offset-2">
-<!--                      <div id="image">-->
-                        
-<!--                      </div>-->
-<!--                      <img id="logo-collar-text" class="logo-collar" src="img/collarTagText.svg">-->
-<!--                      <img id="logo-collar-img" class="logo-collar" src="img/CollarTag1.svg">-->
-                      <img src="img/logo.svg" class="logo-collar">
-                      
-                        <h1 class="brand-heading">Hack<b>UMBC</b></h1>
-                        <p class="intro-text">DREAM BIG. MAKE IT HAPPEN.</p>
-                        <p>February 20th - 21st<br>
-                          <a style="color:white" href="https://goo.gl/XAikJ3">1000 Hilltop Circle, Baltimore, MD</a>
-                        </p>
-                        <div style="display:inline">
-                          <a href="#" class="btn btn-default btn-lg">Apply</a>
-                        </div>
-                        <div style="display:inline;padding-left:1em">
-                          <a href="#" class="btn btn-default btn-lg">Sponsor</a>
-                        </div>
-
-<!--
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
--->
+                      <img id="logo" src="img/logo.svg" class="logo-cover">
+                      <h1 class="brand-heading">Hack<b>UMBC</b></h1>
+                      <p class="intro-text">DREAM BIG. MAKE IT HAPPEN.</p>
+                      <p>February 20th - 21st<br>
+                        <a id="address" href="https://goo.gl/XAikJ3">1000 Hilltop Circle, Baltimore, MD</a>
+                      </p>
+                      <div class="inline btn-cover-div">
+                        <a href="#" class="btn btn-cover btn-lg">Apply</a>
+                      </div>
+                      <div class="inline btn-cover-div">
+                        <a href="#" class="btn btn-cover btn-lg">Sponsor</a>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -115,166 +101,245 @@
     </header>
 
     <!-- About Section -->
-    <div class="background">
-      <section id="about" class="container content-section text-center">
-          <div class="row">
-              <div class="col-lg-8 col-lg-offset-2">
-                <h1 class="details">24 Hours</h1>
-                <h1 class="details">400 Hackers</h1>
-              </div>
-              <div class="col-lg-8 col-lg-offset-2" style="padding-bottom:2em;">
-                <h1>Learn | Collaborate | Create | Share</h1>
-              </div>
-              <div class="col-lg-8 col-lg-offset-2">
-<!--                  <h2>What is HackUMBC?</h2>-->
-                <p>Hack<b>UMBC</b> gives you 24 hours to learn new skills, make friends, create your wildest idea, and share it with the world. Build anything you can think of: an app, a website, a robotic arm, a game, <i>anything</i>.
-                </p>
-              </div>
-          </div>
-      </section>
-    </div>
-  
-    <!-- FAQ Section -->
-    <section id="faq" class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-              <h2 class="banner-text">FAQ</h2>
-          </div>
+    <section id="about" class="container content-section text-center about-content">
+      <div class="row inspiration">
+        <div class="col-md-3 col-sm-6 col-xs-12"><h1>Learn</h1></div>
+        <div class="col-md-3 col-sm-6 col-xs-12"><h1>Collaborate</h1></div>
+        <div class="col-md-3 col-sm-6 col-xs-6"><h1>Create</h1></div>
+        <div class="col-md-3 col-sm-6 col-xs-6"><h1>Share</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <p>Hack<b>UMBC</b> gives you 24 hours to learn new skills, make friends, create your wildest idea, and share it with the world. Build anything you can think of: an app, a website, a robotic arm, a game, <i>anything</i>.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- omg tons of formatting to make it look right on every screen -->
+        <div class="col-lg-2 col-lg-offset-4 col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2 col-xs-12">
+          <h1>24 Hours</h1>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+          <h1>400 Hackers</h1>
         </div>
       </div>
     </section>
-    <section style="padding-top:3em" class="text-center">
-        <div class="faq-section">
-            <div class="container">
-              <div class="row">
-                <div class="card col-sm-4">
-                  <div class="card-title">What is a hackathon?</div>
-                  <div class="card-body">A hackathon is an innovation marathon.</div>
-                </div>
-                <div class="card col-sm-4">
-                  <div class="card-title">What if I don't have a team or idea?</div>
-                  <div class="card-body">No problem! You can find a team once you arrive. Most hackers arrive without a team. You will often find inspriation for ideas at the hackathon.</div>
-                </div>
-                <div class="card col-sm-4">
-                  <div class="card-title">What if I don't code?</div>
-                  <div class="card-body">This is the perfect opportunity to learn someting new! There will be workshops geared towards beginners and mentors to help you throughout the event.</div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="card col-sm-4">
-                  <div class="card-title">Who can attend?</div>
-                  <div class="card-body">All undergraduate, graduate, and high school students are welcome!</div>
-                </div>
-                <div class="card col-sm-4">
-                  <div class="card-title">What can I build?</div>
-                  <div class="card-body">Anything! Web, mobile, desktop, and hardware projects are all welcome. Projects will be judged based on creativity, technical difficulty, polish, and usefulness.</div>
-                </div>
-                <div class="card col-sm-4">
-                  <div class="card-title">Will there be hardware?</div>
-                  <div class="card-body">We have partnered with MLH to provide hardware hacking resources to all hackers. <a href="https://mlh.io/hardware-lab">Check out the full list of hardware.</a></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="card col-sm-4">
-                  <div class="card-title">How much does it cost?</div>
-                  <div class="card-body">HackUMBC is free! Food, beverages, swag, workspaces, and sleeping areas will be provided. You just have to get yourself here and we will take care of the rest! :)</div>
-                </div>
-                <div class="card col-sm-4">
-                  <div class="card-title">What should I bring?</div>
-                  <div class="card-body">Valid ID for admission is required. Laptops, sleeping bags, and toiletries are highly recommended.</div>
-                </div>
-<!--
-                <div class="card col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-title">Will there be prizes?</div>
-                  <div class="card-body">Only one way to find out ;) But is that really why you want to attend?</div>
-                </div>
--->
-                <div class="card col-sm-4">
-                  <div class="card-title">How big should teams be? Can I hack alone?</div>
-                  <div class="card-body">Teams should be at most four people. We <i>highly</i> recommend that form a team, but solo hackers are allowed.</div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="card col-sm-4 col-sm-offset-2">
-                  <div class="card-title">Is there a code of conduct?</div>
-                  <div class="card-body"><a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">Yes.</a> Be nice to others.</div>
-                </div>
-                <div class="card col-sm-4">
-                  <div class="card-title">I have more questions!</div>
-                  <div class="card-body">You can get in touch with us via <a href="mailto:hackumbc@gmail.com?subject=I have a question!">email</a>, <a href="https://twitter.com/hackumbc" target="_blank">Twitter</a>, or <a href="https://www.facebook.com/hackumbc2013" target="_blank">Facebook</a>.</div>
-                </div>
-              </div>
+  
+    <!-- FAQ Section -->
+    <div id="faq" class="banner-padding">
+      <section id="faq-background" class="banner text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+                <h2 class="banner-text">FAQ</h2>
             </div>
-        </div>      
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="faq-content text-center">
+      <div class="container">
+        <div class="row">
+          <div class="card col-sm-4">
+            <div class="card-title">What is a hackathon?</div>
+            <div class="card-body">A hackathon is an innovation marathon.</div>
+          </div>
+          <div class="card col-sm-4">
+            <div class="card-title">What if I don't have a team or idea?</div>
+            <div class="card-body">No problem! You can find a team once you arrive. Most hackers arrive without a team. You will often find inspriation for ideas at the hackathon.</div>
+          </div>
+          <div class="card col-sm-4">
+            <div class="card-title">What if I don't code?</div>
+            <div class="card-body">This is the perfect opportunity to learn someting new! There will be workshops geared towards beginners and mentors to help you throughout the event.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card col-sm-4">
+            <div class="card-title">Who can attend?</div>
+            <div class="card-body">All undergraduate, graduate, and high school students are welcome!</div>
+          </div>
+          <div class="card col-sm-4">
+            <div class="card-title">What can I build?</div>
+            <div class="card-body">Anything! Web, mobile, desktop, and hardware projects are all welcome. Projects will be judged based on creativity, technical difficulty, polish, and usefulness.</div>
+          </div>
+          <div class="card col-sm-4">
+            <div class="card-title">Will there be hardware?</div>
+            <div class="card-body">We have partnered with MLH to provide hardware hacking resources to all hackers. <a href="https://mlh.io/hardware-lab">Check out the full list of hardware.</a></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card col-sm-4">
+            <div class="card-title">How much does it cost?</div>
+            <div class="card-body">HackUMBC is free! Food, beverages, swag, workspaces, and sleeping areas will be provided. You just have to get yourself here and we will take care of the rest! :)</div>
+          </div>
+          <div class="card col-sm-4">
+            <div class="card-title">What should I bring?</div>
+            <div class="card-body">Valid ID for admission is required. Laptops, sleeping bags, and toiletries are highly recommended.</div>
+          </div>
+  <!--
+          <div class="card col-sm-6 col-md-4 col-lg-3">
+            <div class="card-title">Will there be prizes?</div>
+            <div class="card-body">Only one way to find out ;) But is that really why you want to attend?</div>
+          </div>
+  -->
+          <div class="card col-sm-4">
+            <div class="card-title">How big should teams be? Can I hack alone?</div>
+            <div class="card-body">Teams should be at most four people. We <i>highly</i> recommend that form a team, but solo hackers are allowed.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card col-sm-4 col-sm-offset-2">
+            <div class="card-title">Is there a code of conduct?</div>
+            <div class="card-body"><a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">Yes.</a> Be nice to others.</div>
+          </div>
+          <div class="card col-sm-4">
+            <div class="card-title">I have more questions!</div>
+            <div class="card-body">You can get in touch with us via <a href="mailto:hackumbc@gmail.com?subject=I have a question!">email</a>, <a href="https://twitter.com/hackumbc" target="_blank">Twitter</a>, or <a href="https://www.facebook.com/hackumbc2013" target="_blank">Facebook.</a></div>
+          </div>
+        </div>
+      </div>
     </section>
   
     <!-- Sponsors Section -->
-    <section id="sponsors" class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-              <h2 class="banner-text">Sponsored By</h2>
+    <div id="sponsors" class="banner-padding">
+      <section id="sponsors-background" class="banner text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+                <h2 class="banner-text">Sponsored By</h2>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="container content-section text-center">
+      </section>
+    </div>
+    <section id="sponsor-logos" class="container content-section text-center">
       <div class="row">
-        <div class="col-md-12 col-lg-8 col-lg-offset-2">
-          Sponsor 1
+        <div class="col-xs-12">
+          Diamond Sponsor
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-lg-8">
-          Sponsor 2
+        <div class="col-sm-4 col-sm-offset-2">
+          Gold Sponsor
         </div>
-        <div class="col-md-6 col-lg-8 col-lg-offset-2">
-          Sponsor 3
+        <div class="col-sm-4">
+          Gold Sponsor
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+          Gold Sponsor
+        </div>
+        <div class="col-sm-4">
+          Gold Sponsor
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-sm-offset-1">
+          Silver Sponsor
+        </div>
+        <div class="col-sm-3">
+          Silver Sponsor
+        </div>
+        <div class="col-sm-3">
+          Silver Sponsor
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-sm-offset-1">
+          Silver Sponsor
+        </div>
+        <div class="col-sm-3">
+          Silver Sponsor
+        </div>
+        <div class="col-sm-3">
+          Silver Sponsor
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          Bronze Sponsor
+        </div>
+        <div class="col-sm-3">
+          Bronze Sponsor
+        </div>
+        <div class="col-sm-3">
+          Bronze Sponsor
+        </div>
+        <div class="col-sm-3">
+          Bronze Sponsor
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          Bronze Sponsor
+        </div>
+        <div class="col-sm-3">
+          Bronze Sponsor
+        </div>
+        <div class="col-sm-3">
+          Bronze Sponsor
+        </div>
+        <div class="col-sm-3">
+          Bronze Sponsor
         </div>
       </div>
     </section>
   
     <!-- Team Section -->
-    <section id="team" class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-              <h2 class="banner-text">Team</h2>
+    <div id="team" class="banner-padding">
+      <section id="team-background" class="banner text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+                <h2 class="banner-text">Team</h2>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <section class="container content-section text-center">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-sm-2 col-sm-offset-1 col-xs-4">
           Person 1
+        </div>
+        <div class="col-sm-2 col-xs-4">
           Person 2
+        </div>
+        <div class="col-sm-2 col-xs-4">
           Person 3
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          Person 4
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          Person 5
+        </div>
+        <div class="col-sm-2 col-sm-offset-1 col-xs-4">
+          Person 6
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          Person 7
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          Person 8
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          Person 9
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          Person 10
         </div>
       </div>
     </section>
   
     <section id="" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/hackumbc" class="btn btn-default btn-lg social"><i class="fa fa-twitter fa-fw"></i> <!--<span class="network-name">Twitter</span>--></a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com/hackumbc2013" class="btn btn-default btn-lg social"><i class="fa fa-facebook fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/umbchackers" class="btn btn-default btn-lg social"><i class="fa fa-github fa-fw"></i></a>
-                    </li>
-                </ul>
-            </div>
+          <a href="https://twitter.com/hackumbc" class="btn btn-default btn-lg social"><i class="fa fa-twitter fa-fw"></i></a>
+          <a href="https://facebook.com/hackumbc2013" class="btn btn-default btn-lg social"><i class="fa fa-facebook fa-fw"></i></a>
+          <a href="https://github.com/umbchackers" class="btn btn-default btn-lg social"><i class="fa fa-github fa-fw"></i></a>
         </div>
     </section>
-
-    <!-- Map Section -->
-<!--    <div id="map"></div>-->
 
     <!-- Footer -->
     <footer>
@@ -284,7 +349,7 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -292,98 +357,10 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="js/responsive.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
-    <script>
-      function init() {
-        // Removes the old one if it's there
-//      var introBackground = document.getElementById('intro-background');
-//        var faqBackground = document.getElementById('faq-background');
-        
-        refresh({element: document.getElementById('intro-background'),
-                 parent: document.getElementById("intro"),
-                 idAttr: "intro-background",
-                 classAttr: "intro-background"});
-        
-        refresh({element: document.getElementById('faq-tri'),
-                 parent: document.getElementById('faq'),
-                 idAttr: 'faq-tri',
-                 classAttr: 'banner-background'});
-        
-        refresh({element: document.getElementById('sponsors-tri'),
-                 parent: document.getElementById('sponsors'),
-                 idAttr: 'sponsors-tri',
-                 classAttr: 'banner-background'});
-                 
-        refresh({element: document.getElementById('team-tri'),
-                 parent: document.getElementById('team'),
-                 idAttr: 'team-tri',
-                 classAttr: 'banner-background'});
-        
-/*
-
-//        refresh(faqBackground);
-        
-        if (introBackground != undefined) {
-          introBackground.remove();
-        }
-//        if (faqBackground != undefined) {
-//          faqBackground.remove();
-//        }
-        
-        var pattern = Trianglify({
-//          width: window.innerWidth,
-//          height: window.innerHeight,
-  //        x_colors: 'YlOrRd',
-          width: document.getElementById("intro").clientWidth,
-          height: document.getElementById("intro").clientHeight,
-          x_colors: 'BuPu',
-//          x_colors: 'YlOrRd',
-//          y_colors: 'YlGnBu'
-        });
-
-        introBackground = pattern.svg();
-        
-        introBackground.setAttribute("id", "intro-background");
-        introBackground.setAttribute("class", "intro-background");
-
-        document.getElementById("intro").appendChild(introBackground);
-//        document.body.appendChild(canvas);
-*/
-      }
-      
-      function refresh(params) {
-        if (params.element != undefined) {
-          params.element.remove();
-        }
-        
-        var pattern = Trianglify({
-          width: params.parent.clientWidth,
-          height: params.parent.clientHeight,
-          x_colors: 'BuPu',
-//          x_colors: 'YlOrRd',
-//          y_colors: 'YlGnBu'
-        });
-
-        params.element = pattern.svg();
-        params.element.setAttribute("id", params.idAttr);
-        params.element.setAttribute("class", params.classAttr);
-
-        params.parent.insertBefore(params.element, params.parent.firstChild);
-//        params.parent.appendChild(params.element);
-      }
-      
-
-      window.onresize = init;
-      init();
-    </script>
-
-  
+    <script src="js/theme-colors.js"></script>
   
 </body>
-
 </html>

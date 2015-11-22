@@ -1,4 +1,5 @@
 /*!
+ * Adapted from:
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -7,7 +8,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Century Gothic,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #171717;
 }
@@ -17,7 +18,6 @@ html {
     height: 100%;
 }
 
-/*h1,*/
 h2,
 h3,
 h4,
@@ -26,9 +26,10 @@ h6,
 .details {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Century Gothic,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 p {
@@ -45,9 +46,22 @@ p {
     }
 }
 
+#address {
+    color: #fff;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+#address:hover,
+#address:focus {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+}
+
+/* This isn't doing anything I don't think */
 .card-body a {
-/*    color: #8C99C4;*/
-    /*color: #8574B0;*/
     color: #fff;
     border-bottom: 2px solid #7E519C;
     padding: 3px;
@@ -56,8 +70,8 @@ p {
     transition: all .3s ease-in-out;
 }
 
-a:hover,
-a:focus {
+.card-body a:hover,
+.card-body a:focus {
     color: #fff;
     background: #7E519C;
     text-decoration: none;
@@ -70,9 +84,8 @@ a:focus {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-/*    text-transform: uppercase;*/
-    font-family: Century Gothic,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #171717;
+    font-family: Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #171717;
 }
 
 .navbar-custom .navbar-brand {
@@ -98,18 +111,10 @@ a:focus {
     color: #fff;
 }
 
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
 .navbar-custom .nav li a:hover {
     outline: 0;
-/*    color: rgba(255,255,255,.8);*/
     background-color: transparent;
-/*    border-bottom: 3px solid #76317C;*/
-    border-bottom: 3px solid #7E519C;
+    border-bottom: 3px solid #8574B0;
 }
 
 .navbar-custom .nav li a:focus,
@@ -123,8 +128,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-  border-bottom: 3px solid #8574B0;
-/*    background-color: rgba(255,255,255,.3);*/
+    border-bottom: 3px solid #8574B0;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -145,42 +149,29 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
+        opacity: 1;
         background: #171717;
     }
 }
 
-
 .intro {
     display: table;
-/*    display: block;*/
-/*    display: inline;*/
     width: 100%;
     height: auto;
-/*    padding-top: 100em;*/
-/*    padding-top: 1000em;*/
-/*    padding: 100px 0;*/
     text-align: center;
     color: #fff;
-/*    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
-/*    background: #f21717;*/
-/*    background-color: #f21717;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-  
+    z-index: -2;
     background: linear-gradient(transparent, transparent, transparent, #171717);
 }
 
-
-
 .intro .intro-body {
-      display: table-cell;
+    display: table-cell;
     vertical-align: middle;
-
     padding-top: 10em;
-/*    display: table-cell;*/
-/*    vertical-align: middle;*/
 }
 
 .intro .intro-body .brand-heading {
@@ -195,6 +186,7 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
+        z-index: -2;
     }
 
     .intro .intro-body .brand-heading {
@@ -286,7 +278,7 @@ a:focus {
 
 .content-section {
 /*    padding-top: 100px;*/
-  padding-top: 50px;
+  padding: 50px;
 }
 
 #map {
@@ -309,7 +301,7 @@ a:focus {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Century Gothic,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -317,10 +309,6 @@ a:focus {
 }
 
 .btn-default {
-/*
-    border: 1px solid #42dca3;
-    color: #42dca3;
-*/
     border: 1px solid #fff;
     color: #fff;
     background-color: transparent;
@@ -328,12 +316,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-/*    border: 1px solid #42dca3;*/
     border: 1px solid #fff;
     outline: 0;
-    color: purple;
+    color: #7E519C;
     background-color: #fff;
-/*    background-color: #42dca3;*/
 }
 
 ul.banner-social-buttons {
