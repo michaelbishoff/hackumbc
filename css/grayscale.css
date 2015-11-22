@@ -164,6 +164,8 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+  
+    background: linear-gradient(transparent, transparent, transparent, #171717);
 }
 
 
