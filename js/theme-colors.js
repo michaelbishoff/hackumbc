@@ -49,9 +49,6 @@ function refresh(params) {
   params.parent.insertBefore(params.element, params.parent.firstChild);
 }
 
-window.onresize = drawBackground;
-drawBackground();
-
 // Changes the theme to dark or light when the logo is clicked
 $('#logo').click(function (){
   // If we're on the light theme, switch to dark
@@ -64,3 +61,6 @@ $('#logo').click(function (){
     $('link[href="css/responsive-dark.css"]').attr('href','css/responsive-light.css');
   }
 });
+
+window.onresize = drawBackground;
+drawBackground();
