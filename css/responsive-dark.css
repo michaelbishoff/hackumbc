@@ -10,7 +10,7 @@ body {
     height: 100%;
     font-family: Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #171717;
+    background-color: #0d0218;
 }
 
 html {
@@ -85,7 +85,7 @@ p {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     font-family: Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: #171717;
+    background: #0d0218;
 }
 
 .navbar-custom .navbar-brand {
@@ -150,7 +150,7 @@ p {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
         opacity: 1;
-        background: #171717;
+        background: #0d0218;
     }
 }
 
@@ -165,7 +165,7 @@ p {
     background-size: cover;
     -o-background-size: cover;
     z-index: -2;
-    background: linear-gradient(transparent, transparent, transparent, #171717);
+    background: linear-gradient(transparent, transparent, transparent, #0d0218);
 }
 
 .intro .intro-body {

@@ -9,7 +9,8 @@ Colors light to dark:
 Offwhite:
 #F0F0F0
 
-Black: #171717
+Old Black: #171717
+New Black: #0d0218
 */
 
 .intro-background {
@@ -53,7 +54,7 @@ Black: #171717
   /* The background of the website is this color, but the triangles are on top
      of the background. To make a straight edge on the triangles, this color is
       set on top of the triangles */
-  background: #171717;
+  background: #0d0218;
 }
 
 .faq-content {
