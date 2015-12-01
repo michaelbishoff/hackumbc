@@ -6,6 +6,17 @@ Colors light to dark:
 #76317C
 #46184B
 
+linear-gradient(135deg,
+#f7fcfd,
+#e0ecf4,
+#bfd3e6,
+#9ebcda,
+#8c96c6,
+#8c6bb1,
+#88419d,
+#810f7c,
+#4d004b);
+
 Offwhite:
 #F0F0F0
 
@@ -35,7 +46,9 @@ New Black: #0d0218
    for when the triangles don't load */
 /*
 #intro {
-  background: linear-gradient(135deg,#f7fcfd,#e0ecf4,#bfd3e6,#9ebcda,#8c96c6,#8c6bb1,#88419d,#810f7c,#4d004b);
+  background: linear-gradient(transparent 66.6%, #0d0218),
+    linear-gradient(135deg,#e0ecf4,#bfd3e6,#9ebcda,#8c96c6,#8c6bb1,#88419d,#810f7c);
+}
 */
 
 /* Banner if triangles don't show up */

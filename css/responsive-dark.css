@@ -164,14 +164,13 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    z-index: -2;
-    background: linear-gradient(transparent 66.6%, #0d0218);
 }
 
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
     padding-top: 10em;
+    background: linear-gradient(transparent 66.6%, #0d0218);
 }
 
 .intro .intro-body .brand-heading {
@@ -339,14 +338,12 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #7E519C;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #7E519C;
 }
 
 img::selection {

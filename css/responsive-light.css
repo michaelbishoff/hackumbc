@@ -170,7 +170,6 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    z-index: -2;
 }
 
 .intro .intro-body {
@@ -344,14 +343,12 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(140, 150, 198, .5);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(140, 150, 198, .5);
 }
 
 img::selection {
