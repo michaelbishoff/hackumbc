@@ -23,8 +23,8 @@ New Black: #0d0218
 }
 
 #intro-content {
-  margin-top: -7em;
-  padding-bottom: 2em;
+  margin-top: -5em;
+  padding-bottom: 7em;
 }
 
 .banner-padding {
@@ -139,8 +139,6 @@ New Black: #0d0218
   }
   #intro-content {
     margin-top: -15em;
-  }
-  .about-content {
-/*    margin-top: 10px;*/
+    padding-bottom: 0;
   }
 }
