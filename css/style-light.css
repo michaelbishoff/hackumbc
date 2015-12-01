@@ -9,7 +9,8 @@ Colors light to dark:
 Offwhite:
 #F0F0F0
 
-Black: #171717
+Old Black: #171717
+New Black: #0d0218
 */
 
 .intro-background {
@@ -19,6 +20,10 @@ Black: #171717
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+#intro-content {
+  margin-top: -15em;
 }
 
 .banner-padding {
@@ -87,8 +92,8 @@ Black: #171717
 }
 
 .logo-cover {
-  margin-top: -10em;
-  width: 20em;
+  margin-bottom: -3em;
+  width: 10em;/* 20em */
   height: auto;
 }
 
@@ -126,4 +131,10 @@ Black: #171717
 
 .fa-bars {
   color: #fff;
+}
+
+@media(min-width:768px) {
+  .logo-cover {
+    width: 15em;
+  }
 }
