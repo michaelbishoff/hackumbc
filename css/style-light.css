@@ -23,7 +23,8 @@ New Black: #0d0218
 }
 
 #intro-content {
-  margin-top: -15em;
+  margin-top: -7em;
+  padding-bottom: 2em;
 }
 
 .banner-padding {
@@ -53,7 +54,6 @@ New Black: #0d0218
 }
 
 .about-content {
-  margin-top: 10px;
   z-index: 2;
   /* The background of the website is this color, but the triangles are on top
      of the background. To make a straight edge on the triangles, this color is
@@ -136,5 +136,8 @@ New Black: #0d0218
 @media(min-width:768px) {
   .logo-cover {
     width: 15em;
+  }
+  #intro-content {
+    margin-top: -15em;
   }
 }
