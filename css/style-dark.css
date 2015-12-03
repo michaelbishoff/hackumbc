@@ -124,14 +124,14 @@ New Black: #0d0218
     padding: 0 1em;
 }
 
-.btn-cover {
+.btn-cover,
+.btn-cover:focus {
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
 }
 
-.btn-cover:hover,
-.btn-cover:focus {
+.btn-cover:hover {
   border: 1px solid #fff;
   outline: 0;
   color: #7E519C;
