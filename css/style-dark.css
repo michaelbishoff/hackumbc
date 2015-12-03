@@ -138,8 +138,17 @@ New Black: #0d0218
   background-color: #fff;
 }
 
-.inspiration {
-  padding-bottom: 3em;
+#learn {
+  content: url('../img/icons/WhiteLearn.svg');
+}
+#collaborate {
+  content: url('../img/icons/WhiteCollaborate.svg');
+}
+#create {
+  content: url('../img/icons/WhiteCreate.svg');
+}
+#share {
+  content: url('../img/icons/WhiteShare.svg');
 }
 
 .fa-bars {
