@@ -5,7 +5,7 @@ function setTheme() {
   var responsive = document.createElement("link");
   
   // If it's past 6pm or before 6am, set dark theme
-  if (hour > 18 || hour < 6) {
+  if (hour >= 18 || hour < 6) {
     style.setAttribute("href", "css/style-dark.css");
     style.setAttribute("rel", "stylesheet");
     responsive.setAttribute("href", "css/responsive-dark.css");
