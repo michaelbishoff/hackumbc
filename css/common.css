@@ -1,3 +1,24 @@
+.mlh-banner {
+  position: absolute;
+  top: 56px;
+  right: 20px;
+  max-width: 100px;
+  width: 10%;
+  min-width: 60px;
+  display: block;
+}
+
+@media(min-width:768px) {
+  .mlh-banner {
+    top: 90px;
+    right: 50px;
+    width: 8%;
+    -webkit-transition: top .5s ease-in-out;
+    -moz-transition: top .5s ease-in-out;
+    transition: top .5s ease-in-out;
+  }
+}
+
 .inspiration {
   margin-bottom: 1.5em;
 }

@@ -19,6 +19,12 @@ function drawBackground() {
            idAttr: 'sponsors-tri',
            classAttr: 'banner-background'});
 
+  refresh({element: document.getElementById('partners-tri'),
+           parent: document.getElementById('partners-background'),
+           color: "BuPu",
+           idAttr: 'partners-tri',
+           classAttr: 'banner-background'});
+
   refresh({element: document.getElementById('team-tri'),
            parent: document.getElementById('team-background'),
            color: "BuPu",
