@@ -156,6 +156,9 @@ New Black: #0d0218
 }
 
 @media(min-width:768px) {
+  #nav-brand {
+    margin-top: -7px;
+  }
   .logo-cover {
     width: 15em;
   }
@@ -166,4 +169,9 @@ New Black: #0d0218
   .banner-padding {
     padding-top: 54px;
   }
+}
+
+#sponsor-logos div.row div,
+#partner-logos div.row div {
+  background-color: #fff;
 }

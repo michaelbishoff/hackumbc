@@ -155,6 +155,9 @@ New Black: #0d0218
 }
 
 @media(min-width:768px) {
+  #nav-brand {
+    margin-top: -7px;
+  }
   .logo-cover {
     width: 15em;
   }
