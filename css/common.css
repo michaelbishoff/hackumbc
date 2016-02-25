@@ -8,17 +8,6 @@
   display: block;
 }
 
-@media(min-width:768px) {
-  .mlh-banner {
-    top: 90px;
-    right: 50px;
-    width: 8%;
-    -webkit-transition: top .5s ease-in-out;
-    -moz-transition: top .5s ease-in-out;
-    transition: top .5s ease-in-out;
-  }
-}
-
 .inspiration {
   margin-bottom: 1.5em;
 }
@@ -57,7 +46,54 @@
 
 .person img {
   object-fit: cover;
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
   margin-left: 0;
+}
+
+.sponsor-tenable {
+  width: 300px;
+}
+.sponsor-clearedge {
+  width: 300px;
+}
+.sponsor-nsa {
+  width: 300px;
+  height: 200px;
+}
+
+/* Small Screen size (sm in bootstrap) */
+@media(min-width:768px) {
+  .mlh-banner {
+    top: 90px;
+    right: 50px;
+    width: 8%;
+    -webkit-transition: top .5s ease-in-out;
+    -moz-transition: top .5s ease-in-out;
+    transition: top .5s ease-in-out;
+  }
+  .sponsor-tenable {
+    width: auto;
+  }
+  .sponsor-clearedge {
+    margin-top: 1.8em;
+  }
+}
+
+/* Medium Screen size (md in bootstrap) */
+@media(min-width:992px) {
+  .sponsor-clearedge {
+    margin-top: 2.2em;
+  }
+}
+
+/* Large Screen size (lg in bootstrap) */
+@media(min-width:1200px) {
+  .sponsor-clearedge {
+    margin-top: 2.5em;
+    width: 350px;
+  }
+  .sponsor-nsa {
+    height:auto;
+  }
 }
