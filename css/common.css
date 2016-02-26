@@ -54,6 +54,7 @@
 .sponsor-tenable {
   width: 300px;
   height: auto;
+  content: url("../img/sponsor/tenable.svg");
 }
 .sponsor-clearedge {
   width: 300px;
