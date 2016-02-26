@@ -177,5 +177,8 @@ New Black: #0d0218
 }
 
 #soylent {
-  content:url("/img/sponsor/soylent-white.svg");
+  content: url("../img/sponsor/soylent-white.svg");
+}
+#square {
+  content: url("../img/sponsor/square-white.svg");
 }

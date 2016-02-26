@@ -62,6 +62,58 @@
   width: 300px;
   height: 200px;
 }
+.sponsor-mccormick {
+  width: 150px;
+}
+.sponsor-towersec {
+  width: 250px;
+  padding: 1em;
+}
+.sponsor-ng {
+  margin-top: 2em;
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+}
+.bronze-sponsors {
+  margin-top: 2em;
+}
+.sponsor-paypal {
+  width: 200px;
+  margin-top: 1em;
+}
+.sponsor-venture-storm {
+  width:125px;
+  margin:10px 0px;
+}
+.sponsor-nc {
+  width: 80px;
+}
+.sponsor-soylent {
+  width: 100px;
+  margin-top: 1em;
+}
+.sponsor-google-square {
+  margin-top: 0em;
+}
+.sponsor-google {
+  width:150px;
+  padding-right: 1em;
+}
+.sponsor-square {
+  width: 150px;
+  padding-left: 1em;
+}
+.partner-csee {
+  width: 150px;
+  margin-bottom: 2em;
+}
+.partner-abc4e {
+  margin-top: 2em;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
 
 /* Small Screen size (sm in bootstrap) */
 @media(min-width:768px) {
@@ -79,12 +131,36 @@
   .sponsor-clearedge {
     margin-top: 1.8em;
   }
+  .sponsor-ng {
+    max-width: 110%;
+  }
+  .sponsor-paypal {
+    padding: 0em 1em;
+  }
+  .sponsor-venture-storm {
+    margin: 0px;
+  }
+  .sponsor-google-square {
+    margin-top: 3em;
+  }
+  .sponsor-google {
+    padding-right: 0em;
+  }
+  .sponsor-square {
+    padding-left: 0em;
+  }
 }
 
 /* Medium Screen size (md in bootstrap) */
 @media(min-width:992px) {
   .sponsor-clearedge {
     margin-top: 2.2em;
+  }
+  .sponsor-ng {
+    max-width: 100%;
+  }
+  .sponsor-paypal {
+    padding: 0em;
   }
 }
 
