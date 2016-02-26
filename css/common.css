@@ -51,10 +51,12 @@
   margin-left: 0;
 }
 
+#sponsor-logos {
+  margin-top: 2em;
+}
 .sponsor-tenable {
   width: 300px;
   height: auto;
-  content: url("../img/sponsor/tenable.svg");
 }
 .sponsor-clearedge {
   width: 300px;
@@ -130,7 +132,7 @@
     width: auto;
   }
   .sponsor-clearedge {
-    margin-top: 1.8em;
+    margin-top: 2.2em;
   }
   .sponsor-ng {
     max-width: 110%;
@@ -155,7 +157,7 @@
 /* Medium Screen size (md in bootstrap) */
 @media(min-width:992px) {
   .sponsor-clearedge {
-    margin-top: 2.2em;
+    margin-top: 2.5em;
   }
   .sponsor-ng {
     max-width: 100%;
@@ -168,10 +170,10 @@
 /* Large Screen size (lg in bootstrap) */
 @media(min-width:1200px) {
   .sponsor-clearedge {
-    margin-top: 2.5em;
+    margin-top: 3em;
     width: 350px;
   }
   .sponsor-nsa {
-    height:auto;
+    height: auto;
   }
 }

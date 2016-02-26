@@ -171,10 +171,12 @@ New Black: #0d0218
   }
 }
 
+/*
 #sponsor-logos div.row div,
 #partner-logos div.row div {
-/*  background-color: #fff;*/
+  background-color: #fff;
 }
+*/
 
 #soylent {
   content: url("../img/sponsor/soylent-white.svg");
