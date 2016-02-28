@@ -40,6 +40,7 @@
 #schedule-info {
   font-size: 16px;
   margin-top: 1em;
+  padding: 0 15px;
 }
 #schedule-info .row {
 /*  border-bottom: 1px solid #464646;*/
@@ -51,6 +52,10 @@
 }
 .schedule-line h1 {
   font-size: 30px;
+}
+.schedule-saturday {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .schedule-sunday {
   margin-top: 2em;
