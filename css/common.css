@@ -24,11 +24,36 @@
 #collab-text:before {
   content: "Collaborate";
 }
+#location-text:before {
+  content: "Location";
+}
 
 @media only screen and (max-width:550px) {
   #collab-text:before {
     content: "Collab.";
   }
+  #location-text:before {
+    content: "Loc.";
+  }
+}
+
+#schedule-info {
+  font-size: 16px;
+  margin-top: 1em;
+}
+#schedule-info .row {
+/*  border-bottom: 1px solid #464646;*/
+  margin-bottom: 0.5em;
+}
+.schedule-line {
+  border-bottom: 2px solid #7E519C;
+  margin-bottom: 1em;
+}
+.schedule-line h1 {
+  font-size: 30px;
+}
+.schedule-sunday {
+  margin-top: 2em;
 }
 
 .person-wrapper {

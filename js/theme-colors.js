@@ -7,6 +7,12 @@ function drawBackground() {
            classAttr: "intro-background",
            cell_size: 75});
 
+  refresh({element: document.getElementById('schedule-tri'),
+           parent: document.getElementById('schedule-background'),
+           color: 'BuPu',
+           idAttr: 'schedule-tri',
+           classAttr: 'banner-background'});
+
   refresh({element: document.getElementById('faq-tri'),
            parent: document.getElementById('faq-background'),
            color: 'BuPu',

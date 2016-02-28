@@ -86,6 +86,12 @@ New Black: #0d0218
   height: auto;
 }
 
+#schedule-info a,
+#schedule-info a:hover {
+  color: #838383;
+  text-decoration: none;
+}
+
 .card {
   padding-bottom: 3em;
 }
