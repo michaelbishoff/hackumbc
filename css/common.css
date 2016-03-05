@@ -115,27 +115,30 @@
   width: 200px;
   margin-top: 1em;
 }
+.sponsor-troweprice {
+  width: 90px;
+  margin-top: -0.5em;
+}
 .sponsor-venture-storm {
   width:125px;
   margin:10px 0px;
 }
 .sponsor-nc {
   width: 80px;
+  margin-top: 1em;
 }
 .sponsor-soylent {
   width: 100px;
-  margin-top: 1em;
 }
-.sponsor-google-square {
+.sponsors-last-row {
   margin-top: 0em;
 }
 .sponsor-google {
-  width:150px;
-  padding-right: 1em;
+  width: 150px;
 }
 .sponsor-square {
   width: 150px;
-  padding-left: 1em;
+  margin-top: 1em;
 }
 .partner-csee {
   width: 150px;
@@ -173,14 +176,11 @@
   .sponsor-venture-storm {
     margin: 0px;
   }
-  .sponsor-google-square {
+  .sponsors-last-row {
     margin-top: 3em;
   }
-  .sponsor-google {
-    padding-right: 0em;
-  }
   .sponsor-square {
-    padding-left: 0em;
+    margin-top: 0em;
   }
 }
 
