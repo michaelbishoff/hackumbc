@@ -144,6 +144,10 @@
   width: 150px;
   margin-bottom: 2em;
 }
+.partner-hackerfund {
+  margin-top: 2em;
+  max-width: 100%;
+}
 .partner-wide {
   margin-top: 2em;
   max-width: 100%;
@@ -208,5 +212,8 @@
   }
   .sponsor-nsa {
     height: auto;
+  }
+  .partner-hackerfund {
+    margin-top: 3em;
   }
 }
